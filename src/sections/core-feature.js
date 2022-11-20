@@ -11,8 +11,9 @@ const data = {
   title: 'Next Gen Agency',
   description:
     'We know how the old-fashioned agency works. Month-long on-boarding processes, high start-up fees, poor communication, and finally; the lack of pace. Stage Digital is a new breed of agency. We’ll spend less than an hour on-boarding you, and then we skip straight to strategizing and delivering results. You’ll be surprised by our efficiency.',
-  btnName: 'Get Started',
-  btnURL: '#',
+  btnName: 'Speak To Our Team Today',
+ 
+  btnURL: 'https://calendly.com/abhishblaze/25min?month=2022-11',
 };
 
 export default function CoreFeature() {
@@ -26,7 +27,8 @@ export default function CoreFeature() {
             description={data.description}
             btnName={data.btnName}
             btnURL={data.btnURL}
-          />
+            />
+            <p> Schedule Your FREE Call Now</p>
         </Box>
         <Box sx={styles.thumbnail}>
           <Image src={FeatureThumb} alt="Thumbnail" />

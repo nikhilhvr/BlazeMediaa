@@ -23,7 +23,7 @@ const data = [
     altText: 'Partnership deal',
     title: 'Partnership deal',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'In 2020-30  big whale company will come on social media after knowing the power And the competition will be more violent',
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const data = [
     altText: 'Pro Subscription',
     title: 'Contract',
     text:
-      'The contract will be a minimum of a month',
+      'The contract will be a minimum of a 3-6month',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: 'Customer Support',
     title: 'Customer Support',
     text:
-      'There will be 24x7 support will be provided',
+      'There will be 24x7 support will be provided.Once you start working with us you can be sure for your advertising      ',
   },
 ];
 

@@ -1,82 +1,49 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
+import {
+  jsx,
+  Container,
+  Box,
+  Grid,
+  Text,
+  Heading,
+  Button,
+  Image,
+} from 'theme-ui';
+import React from "react";
 
-export default function blogsection() {
+const blogsection = () => {
   return (
-    <section sx={styles.banner} id="home">
-      <Container sx={styles.banner.container}>
-        <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
-          You’ve got a business, we have got brilliant Minds
-          </Heading>
-          <Text as="p" variant="heroSecondary">
-          Let us build the bridge between your brand and customer. We have got minds in action 🚀
-          </Text>
-          <Button variant="primary">Explore</Button>
-        </Box>
+    <>
+      <div sx={{marginTop:'33px'}} >this is a blog</div>
+     
+      <iframe  width="600" sx={{marginRight:'33px'}}  height="405" src="https://www.youtube.com/embed/sek3FhByr6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        {/* <Box sx={styles.banner.imageBox}>
-          <Image src={BannerImg} alt="banner" />
-        </Box> */}
-      </Container>
-    </section>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sek3FhByr6w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+ 
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sek3FhByr6w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sek3FhByr6w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sek3FhByr6w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/sek3FhByr6w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+
+    </>
   );
-}
+};
+
+export default blogsection;
 
 const styles = {
-  banner: {
-    pt: ['140px', '145px', '155px', '170px', null, null, '180px', '215px'],
-    pb: [2, null, 0, null, 2, 0, null, 5],
-    position: 'relative',
-    zIndex: 2,
-    '&::before': {
-      position: 'absolute',
-      content: '""',
-      bottom: 6,
-      left: 0,
-      height: '100%',
-      width: '100%',
-      zIndex: -1,
-      // backgroundImage: `url(${ShapeLeft})`,
-      backgroundRepeat: `no-repeat`,
-      backgroundPosition: 'bottom left',
-      backgroundSize: '36%',
-    },
-    '&::after': {
-      position: 'absolute',
-      content: '""',
-      bottom: '40px',
-      right: 0,
-      height: '100%',
-      width: '100%',
-      zIndex: -1,
-      // backgroundImage: `url(${ShapeRight})`,
-      backgroundRepeat: `no-repeat`,
-      backgroundPosition: 'bottom right',
-      backgroundSize: '32%',
-    },
-    container: {
-      minHeight: 'inherit',
-      display: 'flex',
-      flexDirection: 'column',
-      justifyContent: 'center',
-    },
-    contentBox: {
-      width: ['100%', '90%', '535px', null, '57%', '60%', '68%', '60%'],
-      mx: 'auto',
-      textAlign: 'center',
-      mb: ['40px', null, null, null, null, 7],
-    },
-    imageBox: {
-      justifyContent: 'center',
-      textAlign: 'center',
-      display: 'inline-flex',
-      mb: [0, null, -6, null, null, '-40px', null, -3],
-      img: {
-        position: 'relative',
-        height: [245, 'auto'],
-      },
-    },
-  },
+ thumbnail:{
+    width: '600px',
+    height: '400px',
+    display: 'flex',
+    // flexDirection: 'column',
+    textAlign: 'left',
+    marginRight:'333px',
+    borderStyles: 'solid',
+    borderRadius: '5%',
+ }
+
 };

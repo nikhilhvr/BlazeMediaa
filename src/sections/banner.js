@@ -4,21 +4,26 @@ import { Container, Box, Heading, Text, Image, Button } from 'theme-ui';
 import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
-
+import Iframe from './Iframe';
 export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-          You’ve got a business, we have got brilliant Minds
+          You’ve got a business, we have got brilliant Minds.
           </Heading>
+          
           <Text as="p" variant="heroSecondary">
           Let us build the bridge between your brand and customer. We have got minds in action 🚀
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button variant="primary"><a href="https://calendly.com/abhishblaze/25min?month=2022-11"> Speak To Our Team Today </a> </Button>
+          <p>Schedule Your FREE Call Now </p> 
         </Box>
-
+    
+        <div sx={styles.iframevideo}>
+        <iframe  sx={styles.iframevideo.iframevideos} src="https://www.youtube.com/embed/gEQYWIeRgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    </div>
         <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
         </Box>
@@ -82,4 +87,29 @@ const styles = {
       },
     },
   },
+  iframevideo:{
+    justifyContent: 'center',
+    display: 'inline-flex',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    
+    iframevideos: {
+      borderRadius:'2.5%',
+     
+      // display: 'inline-flex',
+      width: ['80%', '100%', '1000px', null, '100%', '100%', '100%', '75%'],
+      
+      height:'550px',
+      '@media screen and (max-width: 660px)': {
+        height: '200px',
+        width:'100%',
+
+      },
+   
+    
+     
+    },
+  },
+
 };

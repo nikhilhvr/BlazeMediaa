@@ -17,8 +17,8 @@ const data = [
     id: 1,
     imgSrc: Member1,
     altText: 'Saimon Harmer',
-    title: 'Alex ',
-    designation: 'Markting Team Lead',
+    title: 'Aditya chopra',
+    designation: 'Chief Marketing Officer ',
     socialProfile: [
       {
         id: 1,
@@ -44,8 +44,8 @@ const data = [
     id: 2,
     imgSrc: Member2,
     altText: 'Aaron Nunez',
-    title: 'Patrick',
-    designation: 'SEO Expert',
+    title: 'Viraj Bhardwaj ',
+    designation: 'Marketing Manager',
     socialProfile: [
       {
         id: 1,
@@ -125,8 +125,8 @@ const data = [
     id: 5,
     imgSrc: Member5,
     altText: 'Saimon Harmer',
-    title: 'Cortni',
-    designation: 'CEO and Founder',
+    title: 'Isha bhogle ',
+    designation: 'Content Marketer',
     socialProfile: [
       {
         id: 1,
@@ -152,7 +152,7 @@ const data = [
     id: 6,
     imgSrc: Member6,
     altText: 'Aaron Nunez',
-    title: 'Gia',
+    title: 'Tanvi Marathe',
     designation: 'Graphic Designer',
     socialProfile: [
       {
@@ -180,9 +180,9 @@ const data = [
 export default function TeamSection() {
   return (
     <section>
-      <Container>
+      <Container  sx= {{my:'80px',}} >
         <SectionHeader
-          slogan="our team"
+          slogan="our team" 
           title="The most qualified and talented individuals"
         />
 
@@ -214,5 +214,8 @@ const styles = {
       null,
       'repeat(3,1fr)',
     ],
+  },
+  ourteam:{
+    margin:'333px',
   },
 };

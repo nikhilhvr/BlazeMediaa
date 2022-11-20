@@ -16,21 +16,21 @@ const data = [
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Mastering meeting about your marketing strategy !!',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Our Chief Marketing Officer will take you on a tour of our services and how we will improve your brand sales and brand value.',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Contract Sign & Initial Payment',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'There will be a contract according to what we will work on and all necessary details Like duration, Cost, and the number of ads. ',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Final Meeting',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'There will be a final meeting before we go ahead. There will be a detailed explanation of every agenda and its pros and cons over to next 4 weeks..',
   },
 ];
 

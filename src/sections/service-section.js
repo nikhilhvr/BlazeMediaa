@@ -31,7 +31,7 @@ const data = {
       altText: 'Smart Features',
       title: 'Quality',
       text:
-        'We have been delivering services since 2020 till this time we completed more than 100`s projects.',
+        'We do one thing - we just do it with a monastic focus and better than anyone else. We do advertise your product ? Company If you want an agency that offers a full service solution of everything that won’t move the needle forward, we’re not for you.',
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ const data = {
       altText: 'Secure Contents',
       title: 'Experceince',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'If you want an agency where with two clicks, you can get a clear breakdown of how much was spent, how much was made & what your net profit was - we’re for you. ',
     },
   ],
 };
@@ -90,7 +90,7 @@ export default function ServiceSection() {
       <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
-        videoId="ZNA9rmDsYVE"
+        videoId="gEQYWIeRgC0"
         onClose={() => setVideoOpen(false)}
       />
     </section>
