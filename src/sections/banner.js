@@ -5,6 +5,13 @@ import BannerImg from 'assets/banner-thumb.png';
 import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 import Iframe from './Iframe';
+import TextFeature from 'components/text-feature';
+
+const data = {
+  btnName: 'Speak To Our Team Today',
+  btnURL: 'https://calendly.com/abhishblaze/25min?month=2022-11',
+};
+
 export default function Banner() {
   return (
     <section sx={styles.banner} id="home">
@@ -17,9 +24,17 @@ export default function Banner() {
           <Text as="p" variant="heroSecondary">
           Let us build the bridge between your brand and customer. We have got minds in action 🚀
           </Text>
-          <Button variant="primary"><a href="https://calendly.com/abhishblaze/25min?month=2022-11"> Speak To Our Team Today </a> </Button>
-          <p>Schedule Your FREE Call Now </p> 
+          {/* <Button variant="primary"><a href="https://calendly.com/abhishblaze/25min?month=2022-11"> Speak To Our Team Today </a> </Button>
+          <p>Schedule Your FREE Call Now </p>  */}
+          <div sx={styles.buttonn}>
+            <TextFeature
+            
+            btnName={data.btnName}
+            btnURL={data.btnURL}
+            />
+            </div>
         </Box>
+     
     
         <div sx={styles.iframevideo}>
         <iframe  sx={styles.iframevideo.iframevideos} src="https://www.youtube.com/embed/gEQYWIeRgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
@@ -107,9 +122,21 @@ const styles = {
 
       },
    
+   
     
      
     },
+
   },
+  buttonn:{
+    marginLeft:'260px',
+    // textAlign:'center',
+    // justifyContent: 'center',
+   
+    '@media screen and (max-width: 660px)': {
+      marginLeft:'0px',
+
+    }, // alignItems: 'center',
+  }
 
 };
