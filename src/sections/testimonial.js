@@ -17,7 +17,7 @@ const data = [
     description:
       'I wasn`t sure whether that marketing is going to work for my business or not. I work with other agencies also but they don`t create from scratch they just Reddit the templates only, But these guys are a bit expensive but have really good graphic designers.',
     avatar: Avatar1,
-    name: 'Denny Hilguston',
+    name: 'Mary Patricia',
     // designation: '@denny.hil',
     review: 4,
   },
@@ -27,8 +27,8 @@ const data = [
     description:
       'These guys build a really good website for my e-commerce business. previously I was using only website builder only. But my never ranked or stand out on the web. Now I have a really good Next js website, that rank never looks similar to other websites.',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Michael Steven',
+    // designation: '@denny.hil',
     review: 5,
   },
   {
@@ -37,8 +37,8 @@ const data = [
     description:
       'The signing process is resistant less from start to end. I never feel this free before. For 6 months I am enjoying my life these guys are really great. I am ready for another 6 months. ',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Logan james',
+    // designation: '@denny.hil',
     review: 5,
   },
   {
@@ -47,8 +47,8 @@ const data = [
     description:
       'The process is very smooth. I like all the things about these people. But I want to highlight something(Branding, marketing, and Seo). I never found everything on the same agency website,marketing, to social media management.  ',
     avatar: Avatar4,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Rajat Gupta',
+    // designation: '@denny.hil',
     review: 4,
   },
 ];
@@ -78,8 +78,8 @@ const responsive = {
 
 export default function TestimonialCard() {
   return (
-    <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
-      <Container css={{ textAlign: 'center' }}>
+    <section id="testimonial" sx={{ variant: 'section.testimonial',marginTop:'-100px',marginBottom:'-130px' }}>
+      <Container css={{ textAlign: 'center'}}>
         <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
       </Container>
       <Box sx={styles.carouselWrapper}>
@@ -139,6 +139,7 @@ const styles = {
     alignItems: 'flex-end',
     mt: '-30px',
     px: '15px',
+    pt:'0px',
     '.carousel-container': {
       width: '100%',
       maxWidth: [

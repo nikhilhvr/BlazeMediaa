@@ -6,6 +6,7 @@ import ShapeLeft from 'assets/shape-left.png';
 import ShapeRight from 'assets/shape-right.png';
 import Iframe from './Iframe';
 import TextFeature from 'components/text-feature';
+import Linkk from 'next/link';
 
 const data = {
   btnName: 'Speak To Our Team Today',
@@ -26,14 +27,22 @@ export default function Banner() {
           </Text>
           {/* <Button variant="primary"><a href="https://calendly.com/abhishblaze/25min?month=2022-11"> Speak To Our Team Today </a> </Button>
           <p>Schedule Your FREE Call Now </p>  */}
-          <div sx={styles.buttonn}>
-            <TextFeature
+         
+         <Linkk href='https://calendly.com/abhishblaze/25min?month=2022-11'>
+          <Button
+          
+            className="donate__btn"
+            variant="secondary"
+            aria-label="Get Started"
             
-            btnName={data.btnName}
-            btnURL={data.btnURL}
-            />
-            </div>
+            
+          >
+          Speak To Our Team Today 
+          </Button>
+          </Linkk>
+          
         </Box>
+        {/* <p> Schedule Your FREE Call Now</p> */}
      
     
         <div sx={styles.iframevideo}>
@@ -49,7 +58,7 @@ export default function Banner() {
 
 const styles = {
   banner: {
-    pt: ['140px', '145px', '155px', '170px', null, null, '180px', '215px'],
+    pt: ['110px', '145px', '155px', '170px', null, null, '180px', '125px'],
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: 'relative',
     zIndex: 2,
