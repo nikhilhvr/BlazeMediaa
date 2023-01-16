@@ -1,0 +1,13 @@
+.blogheading{
+    font-size: 50px;
+}
+.subheading{
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    
+}
+.footertext{
+    color: rgb(0, 0, 0);
+    opacity: 79%;
+}
