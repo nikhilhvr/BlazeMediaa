@@ -1,4 +1,3 @@
-/** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { motion } from 'framer-motion';
@@ -10,55 +9,91 @@ export const AccordionButton = ({ children, ...rest }) => (
 );
 
 const styles = {
-  accordionItem: {
-    overflow: 'hidden',
-    '+ .accordion-item': {
-      mt: [3],
-    },
-  },
   buttonToggle: {
     display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
     color: 'headingSecondary',
     cursor: 'pointer',
-    fontSize: [2, 2, 2, 2, 2, 18, 3],
+    border: 'none',
+    fontSize: [16, 16, 16, 18, 20],
     fontWeight: 500,
     letterSpacing: -0.5,
     position: 'relative',
+    paddingLeft: ['33px', '45px'],
     lineHeight: [1.5, 1.8],
-  },
-  accordionContent: {
-    overflow: 'hidden',
-    lineHeight: 2,
-    mt: [4],
+    '& > span': {
+      position: 'absolute',
+      width: 20,
+      height: 20,
+      borderRadius: '50%',
+      backgroundColor: 'primary',
+      top: ['2px', '6px'],
+      left: [0, '13px'],
+      '&.open:after': {
+        opacity: 0,
+      },
+      '&::before': {
+        position: 'absolute',
+        content: '""',
+        height: '2px',
+        width: 10,
+        backgroundColor: 'white',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50% , -50%)',
+      },
+      '&::after': {
+        position: 'absolute',
+        content: '""',
+        height: 10,
+        width: '2px',
+        backgroundColor: 'white',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50% , -50%)',
+        transition: 'all 0.25s',
+      },
+    },
   },
 };
 
 const variants = {
   open: {
     height: 'auto',
-    marginTop: 16,
+    marginTop: 12,
   },
   closed: { height: 0, marginTop: 0 },
 };
-
 export function AccordionContents({ isOpen, ...props }) {
   return (
     <motion.div
       initial="closed"
       animate={isOpen ? 'open' : 'closed'}
       variants={variants}
-      sx={styles.accordionContent}
+      sx={{
+        overflowY: 'hidden',
+        fontSize: [1, 2],
+        lineHeight: 2,
+        color: '#343D48',
+        paddingLeft: ['33px', '45px'],
+        ' > div ': {
+          paddingBottom: [1, 2],
+        },
+      }}
       {...props}
     />
   );
 }
 
-export const AccordionItem = ({ isOpen, children, className, ...rest }) => (
+export const AccordionItem = ({ isOpen, children, ...rest }) => (
   <div
-    className={`accordion-item ${className}`}
-    sx={styles.accordionItem}
+    css={{
+      overflow: 'hidden',
+      padding: '17px 0',
+      borderBottom: '1px solid #E5ECF4',
+      '&:last-child': {
+        borderBottom: '0px solid',
+      },
+    }}
     {...rest}
   >
     {children}

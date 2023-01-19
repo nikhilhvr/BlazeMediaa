@@ -7,6 +7,7 @@ import ShapeRight from 'assets/shape-right.png';
 import Iframe from './Iframe';
 import TextFeature from 'components/text-feature';
 import Linkk from 'next/link';
+import Styles from '../theme/styles.module.css';
 
 const data = {
   btnName: 'Speak To Our Team Today',
@@ -15,11 +16,13 @@ const data = {
 
 export default function Banner() {
   return (
+    <>
+    
     <section sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-          You’ve got a business, we have got brilliant Minds.
+           <p className={Styles.mainheading}> You’ve got a business, we have got brilliant Minds.</p>
           </Heading>
           
           <Text as="p" variant="heroSecondary">
@@ -40,19 +43,29 @@ export default function Banner() {
           Speak To Our Team Today 
           </Button>
           </Linkk>
-          
+ 		
         </Box>
+    
         {/* <p> Schedule Your FREE Call Now</p> */}
      
-    
+        <div class={Styles.container}>
+		<div class={Styles.btn}><a href="#">Read more 1</a></div>
+		<div class={Styles.btn}><a href="#" >Read more 2</a></div>
+				<div class={Styles.btn}><a href="#" >Read more</a></div>
+        <div class={Styles.btn}><a href="#" >Read more</a></div>
+        <div class={Styles.btn}><a href="#" >Read more</a></div>
+        <div class={Styles.btn}><a href="#" >Read more</a></div>
+        <div class={Styles.btn}><a href="#" >Read more</a></div>
+	</div>
         <div sx={styles.iframevideo}>
         <iframe  sx={styles.iframevideo.iframevideos} src="https://www.youtube.com/embed/gEQYWIeRgC0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
     </div>
-        <Box sx={styles.banner.imageBox}>
+        {/* <Box sx={styles.banner.imageBox}>
           <Image src={BannerImg} alt="banner" />
-        </Box>
+        </Box> */}
       </Container>
     </section>
+    </>
   );
 }
 

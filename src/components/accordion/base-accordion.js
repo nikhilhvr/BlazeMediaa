@@ -17,7 +17,7 @@ class BaseAccordion extends React.Component {
   internalSetState(changes, callback = () => {}) {
     let allChanges;
     this.setState(
-      state => {
+      (state) => {
         const actualState = this.getState(state);
         const changesObject =
           typeof changes === 'function' ? changes(actualState) : changes;
@@ -30,13 +30,13 @@ class BaseAccordion extends React.Component {
       }
     );
   }
-  handleItemClick = index => {
-    this.internalSetState(state => {
+  handleItemClick = (index) => {
+    this.internalSetState((state) => {
       const closing = state.openIndexes.includes(index);
       return {
         type: closing ? 'closing' : 'opening',
         openIndexes: closing
-          ? state.openIndexes.filter(i => i !== index)
+          ? state.openIndexes.filter((i) => i !== index)
           : [...state.openIndexes, index],
       };
     });

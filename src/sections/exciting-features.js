@@ -2,7 +2,7 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Image } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
-import Accordion from 'components/accordion/accordion';
+// import Accordion from 'components/accordion/accordion';
 import feature from 'assets/feature.png';
 import emoji from 'assets/emoji-2.png';
 
