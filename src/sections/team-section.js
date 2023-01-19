@@ -182,8 +182,8 @@ export default function TeamSection() {
     <section>
       <Container  sx= {{my:'80px',}} >
         <SectionHeader
-          slogan="our team" 
-          title="The most qualified and talented individuals"
+          slogan="Unstoppable Team" 
+          title="Proven Experts in Building Strong Brand-Customer Connections"
         />
 
         <Grid sx={styles.grid}>
