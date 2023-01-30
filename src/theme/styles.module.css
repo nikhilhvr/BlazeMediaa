@@ -325,21 +325,21 @@
     height: 80px;
     display: flex;
 
-    background: #000000;
+   
     /* justify-content: flex-start; */
     /* position: ; */
-    background: rgb(255,120,0);
-background: linear-gradient(297deg, rgba(255,120,0,1) 0%, rgba(249,152,31,0.9945728291316527) 35%, rgba(255,214,0,0.8657212885154062) 100%);
+    background:black;
+/* background: linear-gradient(297deg, rgba(255,120,0,1) 0%, rgba(249,152,31,0.9945728291316527) 35%, rgba(255,214,0,0.8657212885154062) 100%); */
 }
 .h11{
     height: 70px;
-    width: 300px;
-    text-align: center;
-    font-family: Poppins;
+    width: 750px;
+    font-family: 'Passero One','Poppins';
     overflow: hidden;
-    font-size: 20px;
+    font-size: 35px;
     /* margin-right: 300px; */
     margin: auto;
+    margin-top: 10px;
     font-weight: 800;
     color: white;
     
@@ -421,7 +421,7 @@ position: relative;
     vertical-align: baseline;
     user-select: none;
     color: whitesmoke;
-    border: 2px solid #fffb00;
+    border: 2px solid #e76c00;
     -webkit-user-select: none;
     touch-action: manipulation;
   }

@@ -15,7 +15,7 @@ const data = [
     altText: 'Fast Performance',
     title: 'Fast Performance',
     text:
-      'After all the paperwork work and access. Work will be started within 3 business days only',
+      'Launch Your First Campaign in Record Time: Have Your Ad Live in Only 36 Hours!',
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const data = [
     altText: 'Partnership deal',
     title: 'Partnership deal',
     text:
-      'In 2020-30  big whale company will come on social media after knowing the power And the competition will be more violent',
+      'Effortlessly Boost Your Business with Our Fully Automated Solution - You Don`t Have to Do a Thing!',
   },
   {
     id: 3,

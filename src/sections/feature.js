@@ -15,7 +15,7 @@ const data = [
     altText: 'You Are A 10x Brand',
     title: 'You Are A 10x Brand',
     text:
-      'Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.',
+      'Unlock Your True Potential and Become a 10x Brand with Our Expert Assistance We believe in quality over quantity and strive to deliver outstanding results that exceed your expectations.',
   },
   {
     id: 2,
@@ -23,7 +23,10 @@ const data = [
     altText: 'Pro Subscription',
     title: 'Social Media Management',
     text:
-      'Social media management is the process of managing your online presence on social media platforms like Facebook, Instagram, and Twitter by publishing, and analyzing content you post.',
+      `Transform Your Brand: Get 20X More Reach in Just 120 Days with Our Expert Social Media Management Services
+
+       \nDevelop and implement a tailored social media strategy that aligns with your brand's goals and target audience.
+`,
   },
   {
     id: 3,
@@ -31,7 +34,7 @@ const data = [
     altText: 'Partnership deal',
     title: 'Marketing',
     text:
-      'An important goal of marketing is propelling a company’s growth. This can be seen through attracting and retaining new customers.Companies may apply a number of different marketing strategies to achieve these goals. For instance, matching products with customers` needs could involve personalization, prediction, and essentially knowing the right problem to solve.',
+      'Unlocking the Secrets of First Page Ranking - Boosting Your Website`s Visibility',
   },
   {
     id: 4,
@@ -48,7 +51,7 @@ export default function Feature() {
     <section sx={{ variant: 'section.feature' }}>
       <Container>
         <SectionHeader
-          slogan="What we Offer"
+          slogan="Discover the Wide Range of Services We Offer to Help Your Business Succeed"
           title="Amazing useful features"
         />
 

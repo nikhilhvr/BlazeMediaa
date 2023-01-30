@@ -6,7 +6,7 @@ const growthpage = () => {
     <div className={Styles.yesorno}>
     <div className={Styles.h11}>
       {/* <FaDAndD /> */}
-      DO YOU WANT TO SCALE YOUR BUSINESS??
+      DO YOU WANT TO SCALE YOUR BUSINESS ?
     </div>
     <Linkk href="/yespage">
     <button class={Styles.button1}>
