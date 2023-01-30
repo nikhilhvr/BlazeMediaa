@@ -39,8 +39,8 @@ export default function Header({ className }) {
               </Link>
           
             ))}
-                <Linkk href='/contactus'><a sx={styles.blog} >Contact Us</a></Linkk>
-                <Linkk href='/blog'><a sx={styles.blog} >Blog</a></Linkk>
+                <Linkk href='/contactus'><a  >Contact Us</a></Linkk>
+                <Linkk href='/blog'><a  >Blog</a></Linkk>
           </Flex>
 
               <Linkk href='https://calendly.com/abhishblaze/25min?month=2022-11'>

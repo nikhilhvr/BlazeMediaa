@@ -23,7 +23,7 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'Why You should go for blaze media',
-  title: 'Business Goals Achieved with Design',
+  title: 'Achieve Your Business Goals with Our Expert Assistance',
   features: [
     {
       id: 1,
@@ -31,7 +31,7 @@ const data = {
       altText: 'Smart Features',
       title: 'Quality',
       text:
-        'We do one thing - we just do it with a monastic focus and better than anyone else. We do advertise your product ? Company If you want an agency that offers a full service solution of everything that won’t move the needle forward, we’re not for you.',
+        'At our company, quality is our top priority. We specialize in marketing your brand and product to ensure maximum results. Trust us to deliver exceptional service every time.',
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ const data = {
       altText: 'Secure Contents',
       title: 'Experceince',
       text:
-        'If you want an agency where with two clicks, you can get a clear breakdown of how much was spent, how much was made & what your net profit was - we’re for you. ',
+        'Want transparency in your agency? Look no further, two clicks and get a clear breakdown of spending, profit & net profit with us.Our agency is dedicated to providing complete transparency in all of our operations. With just two clicks, you can access a clear breakdown of how much was spent on your campaign, how much was made, and what your net profit was. We believe in being open and honest with our clients, and this is just one of the ways we do it. ',
     },
   ],
 };

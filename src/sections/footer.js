@@ -6,7 +6,7 @@ const footer = () => {
   return (
     <>
            <Head>
-	<title>Blog Page</title>
+	
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/> 
 
 {/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> */}
@@ -24,20 +24,20 @@ const footer = () => {
             <div className="col-lg-2 col-md-3 col-6 mb-4">
                <h6 className="mb-4 mt-3">Quick Links</h6>
                <ul className="list-unstyled footer-list">
-                  <li><a className={Styles.footertext} href="about.html">About</a></li>
-                  <li><a className={Styles.footertext} href="contact.html">Contact</a></li>
-                  <li><a className={Styles.footertext} href="privacy-policy.html">Privacy Policy</a></li>
-                  <li><a className={Styles.footertext} href="terms-conditions.html">Terms Conditions</a></li>
+                  <li><a className={Styles.footertextt} href="about.html">About</a></li>
+                  <li><a className={Styles.footertextt} href="contact.html">Contact</a></li>
+                  <li><a className={Styles.footertextt} href="privacy-policy.html">Privacy Policy</a></li>
+                  <li><a className={Styles.footertextt} href="terms-conditions.html">Terms Conditions</a></li>
                </ul>
             </div>
 
             <div className="col-lg-2 col-md-3 col-6 mb-4">
                <h6 className="mb-4 mt-3">Social Links</h6>
                <ul className="list-unstyled footer-list">
-                  <li><a className={Styles.footertext} href="#">Facebook</a></li>
-                  <li><a className={Styles.footertext} href="#">Twitter</a></li>
-                  <li><a className={Styles.footertext} href="#">Linkedin</a></li>
-                  <li><a className={Styles.footertext} href="#">Github</a></li>
+                  <li><a className={Styles.footertextt} href="#">Facebook</a></li>
+                  <li><a className={Styles.footertextt} href="#">Twitter</a></li>
+                  <li><a className={Styles.footertextt} href="#">Linkedin</a></li>
+                  <li><a className={Styles.footertextt} href="#">Github</a></li>
                </ul>
             </div>
 
@@ -48,7 +48,7 @@ const footer = () => {
                      <i className="ti-email email-icon"></i>
                      <input type="email" class="form-control" placeholder="Your Email Address"/>
                   </div>
-                  <button className={Styles.subscribebutton} type="submit">Subscribe now</button>
+                  <button className={Styles.subscribebutton} type="submit">Subscribe Now</button>
                </form>
             </div>
          </div>

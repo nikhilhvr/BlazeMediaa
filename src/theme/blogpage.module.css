@@ -7,7 +7,22 @@
     font-family: 'Arial Narrow', Arial, sans-serif;
     
 }
-.footertext{
+.footertextt{
     color: rgb(0, 0, 0);
-    opacity: 79%;
+    opacity: 70%;
+    text-decoration: none;
+    color: #0060B6;
+    text-decoration: none;
+}
+.footertextt:hover{
+    color: coral;
+    color: #0060B6;
+    text-decoration: none;
+}
+.subscribebutton{
+    margin-top: 10px;
+    border: black;
+    background-color: #f97300;
+    color: white;
+    border-radius: 4px;
 }

@@ -55,7 +55,7 @@ const blog = () => {
 				<div className="col-sm-6 col-lg-4 col-xl-3">
 					<div className={Styles.singleperson}>
 						<div className={Styles.personimage}>
-							<img src="https://yt3.googleusercontent.com/DpVoJFoEvhMVrYsYAxjUATNDD924AKXhwAPo6rq6kAvqeCJOgIT8x19b8a1AkBI4rHB8I7LQ_Q=s176-c-k-c0x00ffffff-no-rj" alt=""/>
+							<img src="https://media.licdn.com/dms/image/D4D03AQFFiHgNW_Vqlg/profile-displayphoto-shrink_400_400/0/1671013059743?e=1679529600&v=beta&t=YTlg3gQr6uMNtVfG3-6aOWpPeTOwKGu10Xv4abhzq3A" alt=""/>
 							<span className={Styles.icon}>
 								<i className="fab fa-wordpress-simple"><FaFulcrum/></i>
 							</span>
