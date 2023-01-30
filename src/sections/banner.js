@@ -22,11 +22,11 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-           <p className={Styles.mainheading}> You’ve got a business, we have got brilliant Minds.</p>
+           <p className={Styles.mainheading}> You’ve got business, we have got brilliant Minds.</p>
           </Heading>
           
           <Text as="p" variant="heroSecondary">
-          Let us build the bridge between your brand and customer. We have got minds in action 🚀
+          Trust us to bridge the gap between your brand and customer with our expert minds in action. 🚀
           </Text>
           {/* <Button variant="primary"><a href="https://calendly.com/abhishblaze/25min?month=2022-11"> Speak To Our Team Today </a> </Button>
           <p>Schedule Your FREE Call Now </p>  */}

@@ -29,9 +29,9 @@ const data = [
     id: 3,
     imgSrc: Subscription,
     altText: 'Pro Subscription',
-    title: 'Contract',
+    title: 'Grand Slam Offer',
     text:
-      'The contract will be a minimum of a 3-6month',
+      'Pay one time. (No recurring fee. No retainer.) Just cover ad spend. We’ll generate leads and work your leads for you And only pay us if people show up.',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: 'Customer Support',
     title: 'Customer Support',
     text:
-      'There will be 24x7 support will be provided.Once you start working with us you can be sure for your advertising      ',
+      'Get Expert Assistance Anytime You Need it with Our Daily Text Support - Never Get Stuck With Business Problems Again!      ',
   },
 ];
 
